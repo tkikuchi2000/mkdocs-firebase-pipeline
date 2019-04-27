@@ -1,0 +1,11 @@
+mkdocs == 1.0.4
+pygments
+fontawesome_markdown
+mkdocs-material
+mkdocs-nature
+mkdocs-cinder
+mkdocs-bootstrap
+mkdocs-alabaster
+mkdocs-rtd-dropdown
+mkdocs-safe-text-plugin
+pymdown-extensions
