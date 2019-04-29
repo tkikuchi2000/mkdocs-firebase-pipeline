@@ -1,5 +1,5 @@
 # Base Image - Node Platform
-FROM node:alpine as node
+FROM node:8.16-alpine as node
 
 LABEL maintainer="tkikuchi2000@gmail.com" version="0.1.0"
 
