@@ -20,5 +20,5 @@ RUN \
 
 
 # Install Firebase CLI
-RUN yarn global add firebase-tools
+RUN npm install -g firebase-tools
 
