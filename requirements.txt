@@ -1,11 +1,13 @@
-mkdocs == 1.0.4
-pygments
-fontawesome_markdown
-mkdocs-material
-mkdocs-nature
-mkdocs-cinder
-mkdocs-bootstrap
-mkdocs-alabaster
-mkdocs-rtd-dropdown
-mkdocs-safe-text-plugin
-pymdown-extensions
+mkdocs == 1.1.2
+pygments == 2.5.2
+fontawesome_markdown == 0.2.6
+mkdocs-material == 5.5.14
+mkdocs-nature == 0.3.1
+mkdocs-cinder == 0.17.0
+mkdocs-bootstrap == 1.0.1
+mkdocs-alabaster == 0.8.0
+mkdocs-rtd-dropdown == 1.0.2
+mkdocs-safe-text-plugin == 1.2.0
+mkdocs-git-revision-date-plugin == 0.3
+mkdocs-exclude == 1.0.2
+pymdown-extensions == 7.1
