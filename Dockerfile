@@ -21,5 +21,5 @@ RUN \
 
 
 # Install Firebase CLI
-RUN npm install -g firebase-tools@9.1.2
+RUN npm install -g firebase-tools@9.1.2 --unsafe-perm
 
