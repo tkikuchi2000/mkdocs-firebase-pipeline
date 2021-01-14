@@ -1,7 +1,7 @@
 # Base Image - Node Platform
-FROM node:8.16-alpine as node
+FROM node:10-alpine as node
 
-LABEL maintainer="tkikuchi2000@gmail.com" version="0.2.0"
+LABEL maintainer="tkikuchi2000@gmail.com" version="0.3.0"
 
 COPY requirements.txt ./
 
