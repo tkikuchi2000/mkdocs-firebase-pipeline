@@ -20,5 +20,5 @@ RUN \
 
 
 # Install Firebase CLI
-RUN npm install -g firebase-tools
+RUN npm install -g firebase-tools@9.0.1
 
