@@ -6,7 +6,7 @@ Mkdocs Docker Image containing Firebase CLI for deployments to Firebase
 `.gitlab-ci.yml`
 
 ```yaml
-image: tkikuchi/mkdocs-firebase-pipeline
+image: tkikuchi/mkdocs-firebase-pipeline:12-alpine
 
 stages:
   - deploy
