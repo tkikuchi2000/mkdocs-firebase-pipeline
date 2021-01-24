@@ -1,7 +1,7 @@
 # Base Image - Node Platform
-FROM node:10-alpine as node
+FROM node:12-alpine as node
 
-LABEL maintainer="tkikuchi2000@gmail.com" version="0.3.0"
+LABEL maintainer="tkikuchi2000@gmail.com" version="0.4.0"
 
 COPY requirements.txt ./
 
@@ -21,5 +21,5 @@ RUN \
 
 
 # Install Firebase CLI
-RUN npm install -g firebase-tools@9.1.2 --unsafe-perm
+RUN npm install -g firebase-tools@9.2.2 --unsafe-perm
 
