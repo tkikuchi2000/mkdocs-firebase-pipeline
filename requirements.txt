@@ -1,7 +1,7 @@
 mkdocs == 1.1.2
 pygments == 2.7.4
 fontawesome_markdown == 0.2.6
-mkdocs-material == 6.2.5
+mkdocs-material == 4.6.3
 mkdocs-nature == 0.4
 mkdocs-cinder == 1.2.0
 mkdocs-bootstrap == 1.1
