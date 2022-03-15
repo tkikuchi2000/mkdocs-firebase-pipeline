@@ -1,5 +1,6 @@
 # Base Image - Node Platform
-FROM node:14-alpine as node
+FROM node:16-alpine as node
+ARG FIREBASE_VER=10.2.2
 
 LABEL maintainer="tkikuchi2000@gmail.com" version="0.5.0"
 
@@ -18,8 +19,6 @@ RUN \
     && pip3 install --no-cache-dir -r requirements.txt \
     && rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
-
-
 # Install Firebase CLI
-RUN npm install -g firebase-tools@9.2.2 --unsafe-perm
+RUN npm install -g firebase-tools@${FIREBASE_VER} --unsafe-perm
 
