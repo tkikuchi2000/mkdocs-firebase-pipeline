@@ -10,4 +10,4 @@ mkdocs-rtd-dropdown == 1.0.2
 mkdocs-safe-text-plugin == 1.4.0
 mkdocs-git-revision-date-plugin == 0.3.2
 mkdocs-exclude == 1.0.2
-pymdown-extensions == 9.2
+pymdown-extensions == 10.0
