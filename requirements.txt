@@ -1,5 +1,5 @@
 mkdocs == 1.2.3
-pygments == 2.11.2
+pygments == 2.15.0
 fontawesome_markdown == 0.2.6
 mkdocs-material == 8.2.5
 mkdocs-nature == 0.4
